@@ -1,5 +1,5 @@
 function dwarfRollCall(dwarves) {
- var string = '';
+var string = '';
   for (var i = 0; i < dwarves.length; i++){
     var num = i + 1; 
     var name = '. ' + dwarves[i] + ' ';
@@ -7,6 +7,20 @@ function dwarfRollCall(dwarves) {
   }  
   return string; 
 }
+
+// function dwarfRollCall(dwarves) {
+// var string = '';
+//   for (var i = 0; i < dwarves.length; i++){
+//   if (i === 0){
+//     string += '1. ' + dwarves[i];
+//   } else {
+//     var num = i + 1;
+//     var unit = '. ' + dwarves[i];
+//     string += ' ' + num + unit;
+//   }
+//   }
+//   return string; 
+// }
 
 function summonCaptainPlanet(planeteerCalls){
   var arr = [];
