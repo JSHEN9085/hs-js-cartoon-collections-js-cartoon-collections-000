@@ -1,10 +1,10 @@
 function dwarfRollCall(dwarves) {
-  var string = '';
+ var string = '';
   for (var i = 0; i < dwarves.length; i++){
-    var num = i + 1;
-    var element = '. ' + dwarves[i] + ' ';
-    string += num + element;
-  }
+    var num = i + 1; 
+    var name = '. ' + dwarves[i] + ' ';
+    string += num + name;
+  }  
   return string; 
 }
 
@@ -21,7 +21,7 @@ function longPlaneteerCalls(words) {
   for (var i = 0; i < words.length; i++){
     var word = words[i];
     if (word.length > 4){
-      return true
+      return true;
     }
   }
   return false;
