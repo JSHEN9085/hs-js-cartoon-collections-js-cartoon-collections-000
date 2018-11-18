@@ -18,7 +18,7 @@ var string = '';
 //     var unit = '. ' + dwarves[i];
 //     string += ' ' + num + unit;
 //   }
-//   }
+//  }
 //   return string; 
 // }
 
